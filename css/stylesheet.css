@@ -1,5 +1,5 @@
 
-#heading {background-color: darkturquoise;
+#heading {background-color: white;
     text-align: center;
     padding-top: 1px;
     padding-bottom: 30px;
@@ -7,9 +7,9 @@
 #headshot {
         width: 15%;
         height: 10%;
-        border: olivedrab solid;
+        border: grey solid;
         border-width: 5px;
-        border-radius: 50%;
+        border-radius: 100%;
     }
 .intro {font-size: 30;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
@@ -17,7 +17,7 @@
 .main{display: flex;}
 #sidebar {
     width: 20%;
-    background-color: cyan;
+    background-color: lightgray;
     color: #00fa9a;
     padding: 1rem;
     border: 10px solid grey;
@@ -25,27 +25,27 @@
 #content{
     padding: 1rem;
     margin: 1rem;
-    border: 10px solid black;
+    border: 10px solid grey;
 }
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 110%;
-background-color: lightskyblue;
+background-color: lightgoldenrodyellow;
 }
-h1 { color: yellow;}
+h1 { color: black;}
 h2 {color: black;}
-h3 {color: darkgreen}
+h3 {color: black}
 
 #content {width: 80%;}
 .Container {
-    border: blue;
+    border: burlywood;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     background-color: black;
 }
 
-footer{background-color: cadetblue;
+footer{background-color: lightcyan;
 text-align: center;}
 art {color: black;
     background-color: cyan;
@@ -53,7 +53,6 @@ art {color: black;
 .li_text {color: black;}
 .liststyle {color: orange;}
 footer {padding-top: 20px;
-        background-color: cadetblue;
         color: thistle;
         text-align: center;
         border: black solid;}
@@ -65,4 +64,4 @@ footer {padding-top: 20px;
          border-radius: 20%;
         }
 main {display: flex;
-    border: 10px solid blue;}
+    border: 10px solid brown;}
