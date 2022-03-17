@@ -33,6 +33,13 @@ body {
 font-size: 110%;
 background-color: lightgoldenrodyellow;
 }
+#backgroundpicture{
+    display: block;
+    height: 80%;
+    width: 100%;
+    background-image: ("Image/Tivani.png");
+    background-size: 100%;
+}
 h1 { color: black;}
 h2 {color: black;}
 h3 {color: black}
