@@ -3,6 +3,8 @@
  
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         Tivani Mabunda
     </title>
@@ -10,10 +12,52 @@
 </head>
 <body>
 <!--Header-->
-<header id="heading">
-   
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header> 
+
+<div id="heading">
    <img id="headshot" src="Image/20211104_111928.jpg" alt="This is my image"
    width="300px" height="300px">
+   <picture>
+    <source srcset="img_small.jpg" media="(max-width: 600px)">
+    <source srcset="img_medium.jpg" media="(max-width: 1500px)">
+    <source srcset="img_large.jpg">
+    <img src="./Image/Tivani.png" alt="Image">
+  </picture>
    <h1>
     Tivani Mabunda
    </h1>
@@ -22,9 +66,7 @@
     <b> Lab Facilitator at Click Foundation. National Diploma in Safety Management graduate with UNISA, to Web with CodeSpace, and Software Development student at CodeSpace.</b>
     
    </p>
-
-<img id="backgroundpicture" src="./Image/Tivani.png">
-</header> 
+</div>
 
 <!--Start of Main Area-->
 <main class="main">
@@ -101,45 +143,33 @@
 </div>
 
 </main>
-<!--Footer-->
-<footer>
+<div id="Contact">
 <article id="Contact">
 
 
-   <h2>Contact</h2>
+   <h2>Contact Me</h2>
 
 <div class="container">
   <form action="/action_page.php">
   <div class="row">
-    <div class="col-25">
-      <label for="fname">Full Name</label>
-    </div>
     <div class="col-75">
       <input type="text" id="fname" name="firstname" placeholder="Full Name..">
     </div>
   </div>
   <div class="row">
-    <div class="col-25">
-      <label for="lname">Email Address</label>
-    </div>
     <div class="col-75">
       <input type="text" id="Email" name="EmailAddress" placeholder="Email Address..">
     </div>
   </div>
 
   <div class="row">
-   <div class="col-25">
-     <label for="subject">Subject</label>
-   </div>
    <div class="col-75">
      <input type="text" id="subject" name="subject" placeholder="Subject..">
    </div>
  </div>
   
   <div class="row">
-    <div class="col-25">
-      <label for="subject">Subject</label>
-    </div>
+    
     <div class="col-75">
       <textarea id="subject" name="subject" placeholder="Type your message here.." style="height:200px"></textarea>
     </div>
@@ -150,11 +180,13 @@
   </div>
   </form>
 </div>
+</div>
 
 
 
-
-<h2 style="color: blueviolet;">Contact Details</h2>
+<!--Footer-->
+<footer>
+<h2 style="color: blueviolet;">Get In Touch</h2>
 
    <div class="social-icons">
       <ul>
