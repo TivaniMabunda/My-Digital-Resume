@@ -57,6 +57,11 @@ div {color: rebeccapurple;}
     flex-direction: row;
     background-color: black;
 }
+
+.override-card {
+    width: 20rem;
+}
+
 footer{background-color: lightcyan;
 text-align: center;}
 art {color: black;
