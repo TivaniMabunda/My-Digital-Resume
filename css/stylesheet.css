@@ -1,38 +1,43 @@
 
 
+.override-nav {
+    background: brown !important;
+    }
+
+.override-brand {
+    color: white !important;
+    }
+
+.override-toggle {
+    border: 1px solid white !important;
+    }
+
 #heading {
     /*background-color: white;*/
     text-align: center;
     padding-top: 10px;
     padding-bottom: 30px;
-    background-image: url('/Image/Tivani.png');
+    background-image: url('/Image/Mom.jpg');
     color: blue;
     }
 
 #headshot {
-        width: 15%;
-        height: 10%;
+        width: 20%;
+        height: 50%;
         border: grey solid;
         border-width: 5px;
         border-radius: 100%;
     }
 .intro {font-size: 30;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.main {display: flex;
+.main {display: grid;
     border: 10px solid brown;}
-#sidebar {
-    width: 20%;
-    background-color: lightgray;
-    color: #00FA9A;
-    padding: 1rem;
-    border: 10px solid grey;
-    }
+
 #content{
    
     padding: 1rem;
     margin: 1rem;
-    border: 10px solid grey;
-    width: 80%;
+    width: 100%;
 }
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,7 +54,7 @@ body {
 h1 { color: black;}
 h2 {color: black;}
 h3 {color: black}
-div {color: rebeccapurple;}
+
 .Container {
     border: burlywood;
     margin-top: 30px;
