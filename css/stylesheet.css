@@ -15,10 +15,11 @@
 #heading {
     /*background-color: white;*/
     text-align: center;
-    padding-top: 10px;
+   
+    padding-top: 15px;
     padding-bottom: 30px;
-    background-image: url('/Image/Mom.jpg');
-    color: blue;
+    background-image: url('/Image/2987209.jpg');
+    color: whitesmoke;
     }
 
 #headshot {
@@ -31,7 +32,8 @@
 .intro {font-size: 30;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .main {display: grid;
-    border: 10px solid brown;}
+    border: 10px solid brown;
+        align-items: center;}
 
 #content{
    
@@ -39,6 +41,9 @@
     margin: 1rem;
     width: 100%;
 }
+
+
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 110%;
@@ -63,8 +68,39 @@ h3 {color: black}
     background-color: black;
 }
 
-.override-card {
-    width: 20rem;
+.custom-grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #dadada;
+    transition: 0.2s;
+    background: lightblue;
+}
+
+.custom-grid h4 {
+    padding: 2px;
+    margin: 8px 0;
+}
+
+.custom-grid-item {
+   width: 100%;
+   padding: 0.25rem;
+   border: 15px solid #dadada;
+   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+@media(min-width:500px){
+    .custom-grid-item{
+        padding: 0.5rem;
+        width: 50%;
+    }
+}
+
+@media(min-width:800px){
+    .custom-grid-item{
+        padding: 1rem;
+        width: 33%;
+    }
 }
 
 footer{background-color: lightcyan;
