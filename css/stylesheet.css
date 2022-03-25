@@ -1,5 +1,14 @@
 
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+.carousel-item img {
+    height: 20vw;
+}
+
 .override-nav {
     background: brown !important;
     }
@@ -56,6 +65,11 @@ body {
     background-image: ("Image/Tivani.png");
     background-size: 100%;
 }
+
+.carousel-inner img {
+    height: 20vw;
+}
+
 h1 { color: black;}
 h2 {color: black;}
 h3 {color: black}
@@ -234,6 +248,7 @@ footer {padding-top: 20px;
         border-radius: 5px;
         /*background-color: #F2F2F2;*/
         padding: 20px;
+      }
 
  
       .col-75 {
@@ -253,4 +268,4 @@ footer {padding-top: 20px;
           width: 100%;
           margin-top: 0;
         }
-      }
+        }
