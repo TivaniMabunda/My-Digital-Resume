@@ -1,13 +1,12 @@
-
-
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  width: 70%;
+  width: 20vw;
   margin: auto;
 }
-.carousel-item img {
-    height: 20vw;
-}
+
+.carousel-inner{
+    max-height: 20vw !important;
+  }
 
 .override-nav {
     background: brown !important;
@@ -40,12 +39,26 @@
     }
 .intro {font-size: 30;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.main {display: grid;
-    border: 10px solid brown;
+
+main {display: grid;
         align-items: center;}
 
+        #main {
+            width: 70px;
+            height: 300px;
+            border: 1px solid #c3c3c3;
+        
+            flex-wrap: wrap;
+            align-content: center;
+          }
+          
+          #main div {
+            width: 70px;
+            height: 70px;
+          }
+
+
 #content{
-   
     padding: 1rem;
     margin: 1rem;
     width: 100%;
@@ -56,6 +69,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 110%;
+    border: 10px solid brown;
     /* background-color: lightgoldenrodyellow; */
 }
 #backgroundpicture{
@@ -69,10 +83,14 @@ body {
 .carousel-inner img {
     height: 20vw;
 }
-
+P { text-align: center }
+H2 { text-align: center }
 h1 { color: black;}
 h2 {color: black;}
 h3 {color: black}
+.lifestyle {
+    text-align: center
+  }
 
 .Container {
     border: burlywood;
@@ -117,9 +135,40 @@ h3 {color: black}
     }
 }
 
-footer{background-color: lightcyan;
-text-align: center;}
-art {color: black;
+.text-center {
+    text-align: center!important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.w-50 {
+    width: 50%!important;
+}
+
+
+
+.submitClass {
+    background: none;    
+    border: none;    
+    color: blue;    
+    text-decoration: underline;    
+    cursor: pointer;
+}
+
+
+.art {color: black;
     background-color: cyan;
 }
 
@@ -127,7 +176,8 @@ art {color: black;
 footer {padding-top: 20px;
         color: thistle;
         text-align: center;
-        border: black solid;}
+        border: black solid;
+        background-color: lightcyan;}
 .social-icons {
         margin: 2.5%;
         width: 25rem;
